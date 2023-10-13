@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Math Quiz Game!</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="game.css">
+    </head>
+<body>
+    <h4 id="gamer1_name"></h4> <span id="player_score"></span>
+    <br>
+    <h4 id="gamer2_name"></h4> <span id="player_score"></span>
+    <div class="container">
+    <center>
+        <div>
+    <h2 style="color: blueviolet">The Math Quiz Game!</h2>
+        <h3 id="gamer_question"></h3>
+            <h3 id="gamer_answer"></h3></div>
+       
+        <div id="output" class="col-lg-6"></div>
+        <br>
+        <br>
+        <h4>Gamer 1</h4>
+        <input type="text" id="gamer1" class="form-control" placeholder="gamer 1">
+<br>
+        <h4>Gamer 2</h4>
+        <input type="text" id="gamer2" class="form-control" placeholder="gamer 2">
+        <br>
+        <button onclick="send()" class="btn btn-success" style="width30%">Send</button>
+       
+    <section>
+    <h2>Question 1</h2>
+        <p> 
+In which field, Oscar awards are distributed?</p>
+        <div>
+        <input type="radio"> Mathematics
+            <input type="radio"> Medicine
+            <input type="radio"> Architecture
+            <input type="radio"> Film Industry
+            <button class="btn btn-primary" type="submit" value="Submit">Submit</button>
+        </div>
+        
+    </section>
+         </center>
+        </div>
+    <script src="game_page.js"></script>
+</body>
+    
+    
+
+
+</html>
